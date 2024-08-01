@@ -1,0 +1,48 @@
+<!-- Links and Images with Map -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+        body{
+            background-color: #414141;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <!-- <img src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBsYW50fGVufDB8fDB8fHww" alt="no image"> <br />
+    <img src="https://images.unsplash.com/photo-1574870111867-089730e5a72b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fHw%3D" alt="animal image"> <br /> -->
+    <!-- <img src="https://images.unsplash.com/photo-1521651201144-634f700b36ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="animal image" width="400px"> <br />
+
+    <img src="./iron-man.jpg" alt="local image" width="400px">
+    <br />
+    <picture>
+        <source media="(min-width: 650px)" srcset="https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D" />
+        <source media="(min-width: 460px)" srcset="https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D" />
+
+        <img src="https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D" alt=""> 
+ </picture> -->
+        <!-- an image map generator -->
+        <img src="iron-man.jpg" usemap="#image-map">
+
+        <map name="image-map">
+            <area onclick="one()" target="" alt="" title="" href="" coords="496,273,380,121" shape="rect">
+            <area onclick="two()" target="" alt="" title="" href="" coords="473,417,44" shape="circle">
+        </map>
+
+        <script>
+            function one() {
+                alert("You clicked on Iron-man head")
+            }
+            function two() {
+                alert("You clicked on Iron-man power src")
+            }
+        </script>
+    
+</body>
+</html>
+
+<!-- ./ => means current dir -->

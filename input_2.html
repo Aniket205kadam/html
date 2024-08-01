@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+</head>
+<body>
+    <form action="#" method="GET" accept-charset="UTF-8" autocomplete="off" enctype="text/plain">
+        <label for="fname">First Name: </label><br />
+        <input type="text" placeholder="first name" name="fname" id="fname">
+        <br /><br />
+        <label for="lname">Last Name: </label><br />
+        <input type="text" placeholder="Last name" name="lname" id="lname">
+        <br /><br />
+        <label for="password">Password: </label><br />
+        <input type="password" placeholder="password" name="password" id="password">
+        <br /><br />
+        <select name="editors" id="editors" multiple>
+            <option value="vscode">vscode</option>
+            <option value="sublime">sublime</option>
+        </select>
+        <br /><br />
+        <input list="editors" name="editor">
+        <datalist id="editors">
+            <option value="vscode">vscode</option>
+            <option value="sublime">sublime</option>
+        </datalist>
+        <br /><br />
+        <label for="url">websit: </label><br />
+        <input type="url" name="url" id="url">
+        <br /><br />
+        <label for="">Select a maintenance drone: </label>
+        <input type="radio" name="drone" id="huey" value="huey" checked /><label for="huey">Huey</label>
+        <input type="radio" name="drone" id="dewey" value="dewey" /><label for="dewey">Dewey</label>
+        <input type="radio" name="drone" id="louie" value="louie" /><label for="louie">Louie</label>
+        <br /><br />
+        <input type="range" name="volume" id="volume" min="0" max="11"><label for="volume">Volume</label><br />
+        <input type="range" name="cowbell" id="cowbell" min="0" max="100"><label for="cowbell">Cowbell</label>
+        <br /><br />
+        <input type="reset" value="reset">
+        <button type="submit">Send!</button>
+    </form>
+</body>
+</html>
